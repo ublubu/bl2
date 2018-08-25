@@ -1,0 +1,15 @@
+<BLCMM v="1">
+#<!!!You opened a file saved with BLCMM in FilterTool. Please update to BLCMM to properly open this file!!!>
+	<head>
+		<type name="BL2" offline="false"/>
+	</head>
+	<body>
+		<category name="no self-slag Antagonist">
+			<code profiles="default">set GD_Aster_Shields.Misc.AntagonistSlagBall:BehaviorProviderDefinition_0.Behavior_Explode_5 InstigatorSelfDamageScale 0.000000</code>
+		</category>
+	</body>
+</BLCMM>
+
+#Commands:
+set GD_Aster_Shields.Misc.AntagonistSlagBall:BehaviorProviderDefinition_0.Behavior_Explode_5 InstigatorSelfDamageScale 0.000000
+

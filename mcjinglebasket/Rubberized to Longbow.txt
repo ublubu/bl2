@@ -1,0 +1,28 @@
+<BLCMM v="1">
+#<!!!You opened a file saved with BLCMM in FilterTool. Please update to BLCMM to properly open this file!!!>
+	<head>
+		<type name="BL2" offline="false"/>
+	</head>
+	<body>
+		<category name="Rubberized to Longbow">
+			<comment>Removes all rubberized and changes em with Lobbed (edit: changed to Longbow). Stats and looks affected. By Jim Raven (tweaked by fartstack mcjinglebasket)</comment>
+			<category name="Code">
+				<code profiles="default">set GD_GrenadeMods.Delivery.Delivery_Rubberized CustomProjectileDefinition ProjectileDefinition'GD_GrenadeMods.Projectiles.Grenade_Longbow'</code>
+				<code profiles="default">set GD_GrenadeMods.Delivery.Delivery_Rubberized ItemAttributeEffects ()</code>
+				<code profiles="default">set GD_GrenadeMods.Delivery.Delivery_Rubberized PrefixList (ItemNamePartDefinition'GD_GrenadeMods.Prefix.Prefix_Longbow',ItemNamePartDefinition'GD_GrenadeMods.Prefix.Prefix_Longbow_Bandit')</code>
+				<code profiles="default">set GD_GrenadeMods.Delivery.Delivery_Rubberized AttributeSlotUpgrades ()</code>
+				<code profiles="default">set GD_GrenadeMods.Delivery.Delivery_Rubberized GestaltModeSkeletalMeshName None</code>
+				<code profiles="default">set GD_GrenadeMods.Delivery.Delivery_Rubberized FlashIconPartName longbow</code>
+			</category>
+		</category>
+	</body>
+</BLCMM>
+
+#Commands:
+set GD_GrenadeMods.Delivery.Delivery_Rubberized CustomProjectileDefinition ProjectileDefinition'GD_GrenadeMods.Projectiles.Grenade_Longbow'
+set GD_GrenadeMods.Delivery.Delivery_Rubberized ItemAttributeEffects ()
+set GD_GrenadeMods.Delivery.Delivery_Rubberized PrefixList (ItemNamePartDefinition'GD_GrenadeMods.Prefix.Prefix_Longbow',ItemNamePartDefinition'GD_GrenadeMods.Prefix.Prefix_Longbow_Bandit')
+set GD_GrenadeMods.Delivery.Delivery_Rubberized AttributeSlotUpgrades ()
+set GD_GrenadeMods.Delivery.Delivery_Rubberized GestaltModeSkeletalMeshName None
+set GD_GrenadeMods.Delivery.Delivery_Rubberized FlashIconPartName longbow
+

@@ -8,7 +8,7 @@ cp "$MLFSRC/BoneParts.txt" bone_parts.txt
 cp "$MLFSRC/DLC2SeraphVendorONeg.txt" vendor_oneg.txt
 cp "$MLFSRC/NecroMagicMissileHotfix.txt" necro_mm.txt
 cp "$MLFSRC/NoMoreOrders.txt" no_orders.txt
-cp "$MLFSRC/ScavengerStockpileRelic.txt" stockpile.txt
+cp "$MLFSRC/ScavengerStockpileRelic" stockpile.txt
 cp "$MLFSRC/USAPatriot.txt" usa.txt
 
 KOB=./koby-backup
@@ -17,7 +17,9 @@ cp "$KOB/Double Quest Rewards.txt" double_rewards.txt
 cp "$KOB/Rarity Color Fix.txt" rarity_colors.txt
 
 FTK=./mcjinglebasket
+cp "$FTK/no self-slag Antagonist.txt" antagonist.txt
 cp "$FTK/Rubberized to Longbow.txt" rubberized.txt
+cp "$FTK/Uberfinity.txt" uberfinity.txt
 
 CPTEAM=$MODSRC/Community\ Patch\ Team
 cp "$CPTEAM/Patch.txt" ucp.txt
