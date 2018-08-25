@@ -26,6 +26,9 @@ doot "$FTK/no self-slag Antagonist.txt" antagonist.txt
 doot "$FTK/Rubberized to Longbow.txt" rubberized.txt
 doot "$FTK/Uberfinity.txt" uberfinity.txt
 
+EXO=./exo-backup
+doot "$EXO/LEGENDARY_COMS_FIX (fixed).txt" legendary_coms.txt
+
 CPTEAM="$MODSRC/Community Patch Team"
 cp "$CPTEAM/Patch.txt" ucp.txt
 
