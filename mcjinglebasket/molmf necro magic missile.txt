@@ -1,0 +1,15 @@
+<BLCMM v="1">
+#<!!!You opened a file saved with BLCMM in FilterTool. Please update to BLCMM to properly open this file!!!>
+	<head>
+		<type name="BL2" offline="false"/>
+	</head>
+	<body>
+		<category name="necro_mm">
+			<code profiles="default">set GD_Aster_Pop_Wizards.Balance.PawnBalance_Necro_Badass DefaultItemPoolList (ItemPool=ItemPoolDefinition'GD_Aster_ItemPools.GrenadeModPools.Pool_SpellGrenade_4_MagicMissileRare',PoolProbability=(BaseValueConstant=0.000000,BaseValueAttribute=AttributeDefinition'GD_Itempools.DropWeights.DropODDS_BossUniques',InitializationDefinition=None,BaseValueScaleConstant=1.000000))</code>
+		</category>
+	</body>
+</BLCMM>
+
+#Commands:
+set GD_Aster_Pop_Wizards.Balance.PawnBalance_Necro_Badass DefaultItemPoolList (ItemPool=ItemPoolDefinition'GD_Aster_ItemPools.GrenadeModPools.Pool_SpellGrenade_4_MagicMissileRare',PoolProbability=(BaseValueConstant=0.000000,BaseValueAttribute=AttributeDefinition'GD_Itempools.DropWeights.DropODDS_BossUniques',InitializationDefinition=None,BaseValueScaleConstant=1.000000))
+
