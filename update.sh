@@ -85,6 +85,7 @@ doot "$HEM/World Mods/Better Slot Machines" better_slots.txt
 JIM="$MODSRC/Jim Raven"
 #doot "$JIM/GrogNozzleMissionReward" grog_reward.txt
 doot "$JIM/Exp++" underlevel_xp.txt
+doot "$JIM/LootMidgetFastFarm.txt" loot_midget_farm.txt
 
 LIC=$MODSRC/LightChaosman
 doot "$LIC/VarkidOverhaul.txt" varkid.txt

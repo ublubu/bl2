@@ -5,11 +5,15 @@
 	</head>
 	<body>
 		<category name="necro_mm">
-			<code profiles="default">set GD_Aster_Pop_Wizards.Balance.PawnBalance_Necro_Badass DefaultItemPoolList (ItemPool=ItemPoolDefinition'GD_Aster_ItemPools.GrenadeModPools.Pool_SpellGrenade_4_MagicMissileRare',PoolProbability=(BaseValueConstant=0.000000,BaseValueAttribute=AttributeDefinition'GD_Itempools.DropWeights.DropODDS_BossUniques',InitializationDefinition=None,BaseValueScaleConstant=1.000000))</code>
+			<hotfix name="Name" level="None">
+				<code profiles="default">set GD_Aster_Pop_Wizards.Balance.PawnBalance_Necro_Badass DefaultItemPoolList (ItemPool=ItemPoolDefinition'GD_Aster_ItemPools.GrenadeModPools.Pool_SpellGrenade_4_MagicMissileRare',PoolProbability=(BaseValueConstant=0.000000,BaseValueAttribute=AttributeDefinition'GD_Itempools.DropWeights.DropODDS_BossUniques',InitializationDefinition=None,BaseValueScaleConstant=1.000000))</code>
+			</hotfix>
 		</category>
 	</body>
 </BLCMM>
 
 #Commands:
-set GD_Aster_Pop_Wizards.Balance.PawnBalance_Necro_Badass DefaultItemPoolList (ItemPool=ItemPoolDefinition'GD_Aster_ItemPools.GrenadeModPools.Pool_SpellGrenade_4_MagicMissileRare',PoolProbability=(BaseValueConstant=0.000000,BaseValueAttribute=AttributeDefinition'GD_Itempools.DropWeights.DropODDS_BossUniques',InitializationDefinition=None,BaseValueScaleConstant=1.000000))
+
+#Direct-Execute Warning:
+say WARNING: "necro_mm" must be imported into BLCMM to run properly with UCP or other mods.
 
