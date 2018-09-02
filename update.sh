@@ -25,6 +25,7 @@ doot "$FTK/molmf necro magic missile.txt" necro_mm.txt
 doot "$FTK/no self-slag Antagonist.txt" antagonist.txt
 doot "$FTK/Rubberized to Longbow.txt" rubberized.txt
 doot "$FTK/Uberfinity.txt" uberfinity.txt
+doot "$FTK/double grog reward.txt" grog_reward.txt
 
 EXO=./exo-backup
 doot "$EXO/LEGENDARY_COMS_FIX (fixed).txt" legendary_coms.txt
@@ -53,7 +54,7 @@ edvmod "RoasterJumper" roaster.txt
 
 EMP=$MODSRC/EmpireScum
 doot "$EMP/ButtStallion.txt" butt.txt
-doot "$EMP/SingularityUnforeseen.txt" singularity_decoy.txt
+#doot "$EMP/SingularityUnforeseen.txt" singularity_decoy.txt
 
 ETH=$MODSRC/Ethel
 function ethmod {
@@ -79,9 +80,10 @@ doot "$FDH/Quest Changes/QuestFix.txt" quest_fix.txt
 
 HEM=$MODSRC/Hemaxhu
 doot "$HEM/Spawn Rates/More Chubbies" more_chubbies.txt
+doot "$HEM/World Mods/Better Slot Machines" better_slots.txt
 
 JIM="$MODSRC/Jim Raven"
-doot "$JIM/GrogNozzleMissionReward" grog_reward.txt
+#doot "$JIM/GrogNozzleMissionReward" grog_reward.txt
 doot "$JIM/Exp++" underlevel_xp.txt
 
 LIC=$MODSRC/LightChaosman
@@ -89,6 +91,7 @@ doot "$LIC/VarkidOverhaul.txt" varkid.txt
 
 LOL=$MODSRC/LollosaurusRex
 doot "$LOL/Make Don-t Copy That Floppy Repeatable/RepeatDon'tCopyThatFloppy.blcm" floppy.txt
+doot "$LOL/Silent Morningstar Mod/SilentMorningstarMod1.3.lol" morningstar.txt
 
 MOP=$MODSRC/mopioid
 doot "$MOP/LootMidgetWorld.blcm" loot_midget.txt
