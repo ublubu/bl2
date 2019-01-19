@@ -27,8 +27,6 @@ doot "$FTK/Rubberized to Longbow.txt" rubberized.txt
 doot "$FTK/Uberfinity.txt" uberfinity.txt
 doot "$FTK/double grog reward.txt" grog_reward.txt
 
-EXO=./exo-backup
-doot "$EXO/LEGENDARY_COMS_FIX (fixed).txt" legendary_coms.txt
 
 CPTEAM="$MODSRC/Community Patch Team"
 cp "$CPTEAM/Patch.txt" ucp.txt
@@ -37,31 +35,20 @@ APO=$MODSRC/Apocalyptech
 function apomod {
 	doot "$APO/$1/$1.blcm" $2
 }
-apomod "BL2 Better Loot Mod" better_loot.txt
-apomod "BL2 Configurable Slot Machines" slot_machines.txt
-apomod "BL2 Container TimeSaver XL" container_timesaver.txt
 apomod "BL2 No Wasted COMs" wasted_coms.txt
-
-BBJOE=$MODSRC/B33PB00PJOE
-doot "$BBJOE/Slag+_v2.txt" slag2.txt
 
 EDVAR=$MODSRC/Edvartsen
 function edvmod {
 	doot "$EDVAR/$1/$1.txt" $2
 }
-#edvmod "AlwaysPrefix" always_prefix.txt
+edvmod "AlwaysPrefix" always_prefix.txt
 edvmod "RoasterJumper" roaster.txt
-
-EMP=$MODSRC/EmpireScum
-doot "$EMP/ButtStallion.txt" butt.txt
-#doot "$EMP/SingularityUnforeseen.txt" singularity_decoy.txt
 
 ETH=$MODSRC/Ethel
 function ethmod {
 	doot "$ETH/$1/$1.txt" $2
 }
 ethmod "no more barrels" no_barrels.txt
-ethmod "Saturn Crit Spots" saturn_crits.txt
 doot "$ETH/small snipets/double auto pickup range.txt" pickup_range.txt
 
 FRE=$MODSRC/Freya
@@ -70,8 +57,6 @@ doot "$FRE/QUALITY OF LIFE/NoMuzzleflashes.txt" muzzle_flash.txt
 
 FDH=$MODSRC/FromDarkHell
 doot "$FDH/Car Changes/CatapultFirst.txt" catapult_first.txt
-doot "$FDH/Loot Drops/LootHunt.txt" loot_hunt.txt
-doot "$FDH/Misc/MarioMode.txt" mario.txt
 doot "$FDH/Quality of Life/PartNotifier.txt" part_notifier.txt
 doot "$FDH/Quality of Life/CutsceneDisabler.txt" cutscene_disabler.txt
 doot "$FDH/Quality of Life/DialogDisabler.txt" dialog_disabler.txt
@@ -80,26 +65,15 @@ doot "$FDH/Quest Changes/QuestFix.txt" quest_fix.txt
 
 HEM=$MODSRC/Hemaxhu
 doot "$HEM/Spawn Rates/More Chubbies" more_chubbies.txt
-doot "$HEM/World Mods/Better Slot Machines" better_slots.txt
 
 JIM="$MODSRC/Jim Raven"
-#doot "$JIM/GrogNozzleMissionReward" grog_reward.txt
 doot "$JIM/Exp++" underlevel_xp.txt
 doot "$JIM/LootMidgetFastFarm.txt" loot_midget_farm.txt
 doot "$JIM/#MakeVendorsGreatAgain2017" vendors.txt
 
-LIC=$MODSRC/LightChaosman
-doot "$LIC/VarkidOverhaul.txt" varkid.txt
-
 LOL=$MODSRC/LollosaurusRex
 doot "$LOL/Make Don-t Copy That Floppy Repeatable/RepeatDon'tCopyThatFloppy.blcm" floppy.txt
 doot "$LOL/Silent Morningstar Mod/SilentMorningstarMod1.3.lol" morningstar.txt
-
-MOP=$MODSRC/mopioid
-doot "$MOP/LootMidgetWorld.blcm" loot_midget.txt
-
-RHY=$MODSRC/Rhysand
-doot "$RHY/Quality of Life/Noselfharmkunai.txt" safe_kunai.txt
 
 SOZ=$MODSRC/soze
 doot "$SOZ/fuckreloadmessages.txt" no_reload.txt
